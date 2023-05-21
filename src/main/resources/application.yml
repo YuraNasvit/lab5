@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,beans
